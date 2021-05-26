@@ -1,0 +1,103 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Nunito', sans-serif;
+	margin: 0;
+	background-color: #a4508b;
+	background-image: linear-gradient(326deg, #a4508b 0%, #5f0a87 74%);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 100vh;
+	flex-direction: column;
+}
+
+.card {
+	background-color: #4665b9;
+	background-image: linear-gradient(326deg, #4665b9 0%, #32213a 74%);
+	border: 1px solid salmon;
+	display: flex;
+	flex-direction: row !important;
+	padding: 3rem;
+	border-radius: 20px;
+	-webkit-box-shadow: 5px 4px 15px -3px #000000;
+	box-shadow: 5px 4px 15px -3px #000000;
+	color: white;
+	max-width: 800px;
+}
+
+.avatar {
+	width: 150px;
+	height: 150px;
+	/* Circular Images */
+	border-radius: 50%;
+	border: 5px solid #a4508b;
+}
+
+.user-info {
+	margin-left: 2rem;
+	color: rgb(248, 237, 237);
+}
+
+.user-info h2 {
+	margin-top: 0;
+}
+
+.user-info ul {
+	display: flex;
+	justify-content: space-between;
+	padding: 0;
+	max-width: 400px;
+	/* style the list icon */
+	list-style-type: none;
+}
+
+.img-container {
+	display: flex;
+	justify-content: center;
+	/* align-items: center; */
+}
+
+input {
+	background-color: #a4508b;
+	border-radius: 10px;
+	padding: 1rem;
+	color: white;
+	font-family: inherit;
+	font-size: 1rem;
+	margin-bottom: 2rem;
+	-webkit-box-shadow: 5px 4px 15px -3px #000000;
+	box-shadow: 5px 4px 15px -3px #000000;
+}
+
+input::placeholder {
+	color: white;
+}
+
+input:focus {
+	outline: none;
+}
+
+.user-info ul li strong {
+	color: rgb(204, 204, 204);
+}
+
+.user-info ul li strong:hover {
+	color: rgb(225, 228, 94);
+}
+
+.repo {
+	display: inline-block;
+	background-color: #4665b9;
+	color: white;
+	/* Padding ideal for text box with 2:1 ratio - IMPORTANT */
+	padding: 0.25rem 0.5rem;
+	margin-right: 0.5rem;
+	margin-bottom: 0.5rem;
+	text-decoration: none;
+	font-size: 10px;
+	border-radius: 5px;
+	border: 1px solid salmon;
+}
